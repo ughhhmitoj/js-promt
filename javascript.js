@@ -1,5 +1,5 @@
 let userName = prompt("Who's there?", '');
-if (userName === 'Kajal'){
+if (userName === 'Kajal' || userName === 'kajal'){
     let pass = prompt ("Password?",'');
 
     if (pass === 'Amitoj'){
