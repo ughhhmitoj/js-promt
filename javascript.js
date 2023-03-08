@@ -1,5 +1,5 @@
 let userName = prompt("Who's there?", '');
-if (userName === 'Kajal' || userName === 'kajal'){
+if (toUpperCase userName === toUpperCase'Kajal'){
     let pass = prompt ("Password?",'');
 
     if (pass === 'Amitoj'){
