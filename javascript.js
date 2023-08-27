@@ -1,8 +1,8 @@
-let userName = toLowerCase(prompt("Who's there?", ''));
-if (userName === 'kajal'){
-    let pass = toLowerCase(prompt ("Password?",''));
+let userName = prompt("Who's there?", '');
+if (userName === 'Kajal' || 'kajal' || 'KAJAL'){
+    let pass = prompt ("Password?",'');
 
-    if (pass === 'amitoj'){
+    if (pass === 'Amitoj'){
         alert("I Love You!")
     } else if (pass === '' || pass === null){
         alert("Wrong Password.Please Refresh this Page to Try again");
